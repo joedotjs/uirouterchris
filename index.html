@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>UI Router</title>
+    <script src="angular/angular.js"></script>
+    <script src="angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="app.js"></script>
+</head>
+<body ng-app="myApp">
+    <ul>
+        <li ui-sref="home">Home</li>
+        <li ui-sref="about">About</li>
+    </ul>
+    <div ui-view></div>
+</body>
+</html>
